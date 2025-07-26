@@ -1,7 +1,10 @@
 #!/bin/bash
 
+target_host="www.gov.il"
+target_port="443"
+
 apt update && apt upgrade -y
-pip install --upgarade pip
+pip install --upgrade pip
 
 sudo apt install hping3 -y
 
